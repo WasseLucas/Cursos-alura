@@ -37,19 +37,31 @@
 
 .apresentacao_links{
 	display: flex;
+	align-items: center;
+	flex-direction: column;
 	justify-content: space-between;
+	gap: 32px;
+
+}
+
+.apresentacao__links__subtitulo{
+	font-family: 'krona One',sans-serif;
+	font-weight: 400;
+	font-size: 20px;
 }
 
 .bottom-link{
-	background-color:#22D4FD ;
+	/* background-color:#22D4FD ; */
+
 	width: 200px;
 	text-align: center;
 	padding: 16.5px 0;
 	border-radius: 16px;
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: 600;
 	cursor: pointer;
 	text-decoration:none;
-	color: #000000;
+	color: #f6f6f6;
+	border: 2px solid #22D4FD;
 	font-family: 'Montserrat', sans-serif;
 }
